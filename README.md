@@ -16,7 +16,7 @@ yarn dev
 //install dependencies
 npm install firebase
 
-npm install react-icon
+npm install react-icons
 ```
 
 
