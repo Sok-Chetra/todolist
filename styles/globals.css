@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+
+.task:hover .btn1{
+  display: inline;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.task:hover .btn2{
+  display: inline;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.task:hover .btn3{
+  display: inline;
+  flex-direction: column;
+}
+
+.btn1{
+  display: none;
+}
+
+.btn2{
+  display: none;
+}
+
+.btn3{
+  display: none;
+}
+
+.spin {
+  margin-top: 50px;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
